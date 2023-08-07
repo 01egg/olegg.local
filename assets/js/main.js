@@ -144,7 +144,6 @@
     $('#contact-form').wiFeedBack({
         fbScript: 'blocks/wi-feedback.php',
         fbLink: false,
-        fbColor: '#337ab7',
         fbColor: false,
         fbTheme: false
     });
@@ -154,15 +153,6 @@
         //2. Получить элемент, к которому необходимо добавить маску
         $("#phone").mask("8(999) 999-9999");
     });
-
-    //
-
-
-
-
-
-
-
 
 });
 }(jQuery));

@@ -41,11 +41,9 @@
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
 
-
 </head>
 
 <body>
-
     <!--====== PRELOADER PART START ======-->
 
     <!--<div class="loading">
@@ -416,7 +414,7 @@
             <p>Нанять меня</p>
         </div>
         <span><p>Оставьте ваше имя и телефон и я вам перезвоню</p></span>
-        <form class="feedback-body">
+        <form class="feedback-body" id="fb1">
             <input type="text" maxlength="20" name="Имя" placeholder="Ваше Имя..." class="feedback-body__message" pattern="[А-Яа-яЁё]{3,}" required />
             <input id="phone" type="text" maxlength="15" name="Телефон" placeholder="Ваш Телефон..." class="feedback-body__message" required />
             <button>Жду звонка!</button>
@@ -814,6 +812,7 @@
 
 
 
+
     <!--====== jquery js ======-->
     <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
@@ -838,10 +837,10 @@
     <!--====== Scrolling js ======-->
     <script src="assets/js/scrolling-nav.js"></script>
     <script src="assets/js/jquery.easing.min.js"></script>
-
+    
     <!--====== Форма обратной связи js ======-->
-    <script src="assets/js/wi-feedback.min.js">
-    </script>
+    <script src="assets/js/wi-feedback.min.js"></script>    
+
 
     <!--====== Проверка номера js ======-->
     <script src="assets/js/jquery.maskedinput.min.js"></script>
