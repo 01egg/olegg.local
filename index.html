@@ -410,15 +410,15 @@
 
     <!-- Форма во всплывающем окне -->
     <div id="lp-fb1" class="mfp-hide feedback-general">
-        <div class="feedback-header">
+        <span class="feedback-header">
             <p>Нанять меня</p>
-        </div>
+        </span>
         <span><p>Оставьте ваше имя и телефон и я вам перезвоню</p></span>
-        <form class="feedback-body" id="fb1">
+        <div class="feedback-body">
             <input type="text" maxlength="20" name="Имя" placeholder="Ваше Имя..." class="feedback-body__message" pattern="[А-Яа-яЁё]{3,}" required />
             <input id="phone" type="text" maxlength="15" name="Телефон" placeholder="Ваш Телефон..." class="feedback-body__message" required />
             <button>Жду звонка!</button>
-        </form>
+        </div>
     </div>
     <!-- Конец формы во всплывающем окне -->
 
@@ -680,7 +680,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="contact-form pt-30">
-                        <form id="contact-form">
+                        <div id="contact-form">
                             <div class="single-form">
                                 <input type="text" name="name" placeholder="Имя" pattern="[А-Яа-яЁё]{3,}" required>
                             </div>
@@ -698,7 +698,7 @@
                                 <button class="main-btn" type="submit">Отправить</button>
                             </div>
                             <!-- single form -->
-                        </form>
+                        </div>
                     </div>
                     <!-- contact form -->
                 </div>
